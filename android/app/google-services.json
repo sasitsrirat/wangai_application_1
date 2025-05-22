@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "224670449",
+    "project_id": "wangaiapplication",
+    "storage_bucket": "wangaiapplication.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224670449:android:aac8fb34f21f720c0bef50",
+        "android_client_info": {
+          "package_name": "com.sasit.wangai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjD24mv2rjJor0gxxz_00nqifG9XAL8WQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
