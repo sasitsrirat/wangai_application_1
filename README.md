@@ -1,6 +1,7 @@
 # wangai_application_1
 
 A new Flutter project.
+![โลโก้ Wa-Ngai](https://github.com/user-attachments/assets/ff9f25f1-17ef-4abe-a959-cad7c8d795c0)
 
 ## Getting Started
 
