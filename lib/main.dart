@@ -2,7 +2,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'home_chat_page.dart';
 import 'settings_page.dart';
-import 'firebase_options.dart'; // ต้องสร้างไฟล์นี้จาก Firebase CLI
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
