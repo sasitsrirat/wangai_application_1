@@ -6,10 +6,13 @@ A lightweight one-on-one chat application built with Flutter and Firebase Firest
 
 ![Screenshot 2025-05-22 171509](https://github.com/user-attachments/assets/5fd841b1-7f33-4b8b-b5ad-7e6ad5f82c4f)
 ![Screenshot 2025-05-22 171522](https://github.com/user-attachments/assets/88cf56c3-89ee-4074-90bf-79cdbe7b9e87)
+![ภาพ](https://github.com/user-attachments/assets/f0593e5b-a0bf-43c2-8ea1-d31d7af05b59)
+![ภาพ](https://github.com/user-attachments/assets/b6da4aae-fa2a-4d2d-abac-95ba5d31c1af)
+
 
 #Features
 
-    🔐 Firebase Authentication (mock login for testing)
+    🔐 Firebase Authentication
     💬 One-on-one chat functionality
     🔔 Unread message badge
     📄 Mock data for testing (messages can be generated without actual input)
