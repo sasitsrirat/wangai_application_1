@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:wangai_application_1/chat_room_page.dart';
+import 'package:wangai_application_1/views/chat_room_page.dart';
 
 class ChatScreen extends StatelessWidget {
   final List<Map<String, dynamic>> chatUsers = [

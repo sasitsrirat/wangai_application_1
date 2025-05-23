@@ -1,12 +1,14 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'home_chat_page.dart';
-import 'settings_page.dart';
+import 'package:wangai_application_1/views/splash_screen.dart';
+import 'views/home_chat_page.dart';
+import 'views/settings_page.dart';
+import 'views/login_screen.dart'; 
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-      options: const FirebaseOptions(
+    options: const FirebaseOptions(
       apiKey: "AIzaSyBjD24mv2rjJor0gxxz_00nqifG9XAL8WQ",
       appId: "1:224670449:android:aac8fb34f21f720c0bef50",
       messagingSenderId: "224670449",
@@ -17,16 +19,24 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MainNavigation(),
+      home: SplashScreen(),
+      routes: {
+        '/login': (context) => LoginScreen(),
+        '/home_chat': (context) => MainNavigation(),
+      },
     );
   }
 }
 
 class MainNavigation extends StatefulWidget {
+  const MainNavigation({super.key});
+
   @override
   _MainNavigationState createState() => _MainNavigationState();
 }

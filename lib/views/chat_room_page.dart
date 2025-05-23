@@ -5,7 +5,7 @@ class ChatRoomPage extends StatelessWidget {
   final String chatId;
   final String userName;
 
-  ChatRoomPage({required this.chatId, required this.userName});
+  ChatRoomPage({super.key, required this.chatId, required this.userName});
 
   final String currentUserId = 'userA'; // mock user
   final List<Map<String, dynamic>> mockMessages = [
